@@ -1,0 +1,247 @@
+body{padding:0px;background:url("bg.png") repeat center top;margin:0 auto; position:relative;font-size:12px; color:#424242;height:100%;}
+
+#innerContentHeadingTR{height:0px;  display:none;}
+#content{ margin:0 auto; background:none;font:12px Arial; _background-attachment:fixed; _background-image:url(about:blank);}
+#innerContentBodyTD{ padding:0px; border:none;background:url("conbg.jpg") repeat-y center top; margin:0 auto;}
+.con {margin: 0 auto;width: 940px; margin-left:7px; border:1px solid #E3E3E3;}
+td.sectionBodyRight, td.layoutBodyRight{display: none;}
+td.layoutBodyLeft{display: none;}
+#CustomHTML0{width:100%;}
+#CustomHTML1{width:100%; height:33px;}
+tr td.twControlTD{padding:0px;}
+#Label1{ font-size:12px;background-color: #F9F9F9;text-align: center;}
+#Label2{ font-size:12px;background-color: #F9F9F9;text-align: center;}
+#section3{width:910px;}
+.layoutBodyCenter{margin: 0 auto;width: 960px;}
+#section1{width:938px; margin:0 auto; border-left:1px solid #f0efef; height:100%;border-right:1px solid #f0efef;overflow: auto; margin-top:10px;  }
+tr td.twLabelTD{background-color: #F9F9F9;text-align: center;border-top: 1px solid #E3E3E3; border-right:1px solid #E3E3E3;}
+tr td.twControlTD{width: 300px;}
+#section1_div  { height:100px; border: solid 1px; overflow: auto; }
+label.defaultWrapping{font-size:12px; width:185px;}
+
+
+/* CSS Document */
+a{ text-decoration:none;}
+img{ border:0px;}
+.clear{ clear:both;}
+ul li{ list-style-type:none;}
+/*.st-forminput{ background:url(input.jpg) no-repeat center top; width:298px; height:21px; border:none; line-height:21px;}*/
+/*
+input[type="text"]{ background:url(input.jpg) no-repeat center top; width:298px; height:21px; border:none; line-height:21px;}
+input {width: expression((this.type=="text") ? "298px" : "style");} 
+input {border: expression((this.type=="text") ? "none" : "style");} 
+input {line-height: expression((this.type=="text") ? "21px" : "style");} 
+input {background-image: expression((this.type=="text") ? "url(input.jpg)" : "style"); } 
+input {height: expression((this.type=="text") ? "21px" : "style");} 
+*/
+#pSection {margin: 0 12px 10px;overflow-x: hidden;overflow-y: auto;width: 936px;}
+/*一行放两个textinput*/
+
+.twoC input {width: expression((this.type=="text") ? "291px" : "style");} 
+.twoC input {border: expression((this.type=="text") ? "none" : "style");} 
+.twoC input {line-height: expression((this.type=="text") ? "21px" : "style");} 
+.twoC input {background-image: expression((this.type=="text") ? "url(input.jpg)" : "style"); } 
+.twoC input {height: expression((this.type=="text") ? "21px" : "style");} 
+/*一行放一个textinput*/
+.oneC input[type="text"]{ /*background:url(inputOneC.jpg) no-repeat center top;*/ width:246px; height:21px; border:1px solid #CCCCCC; line-height:21px;}
+.oneC input {width: expression((this.type=="text") ? "763px" : "style");} 
+.oneC input {border: expression((this.type=="text") ? "none" : "style");} 
+.oneC input {line-height: expression((this.type=="text") ? "21px" : "style");} 
+.oneC input {background-image: expression((this.type=="text") ? "url(inputOneC.jpg)" : "style"); } 
+.oneC input {height: expression((this.type=="text") ? "21px" : "style");} 
+/*只读文本框*/
+/*只读文本框 一行放一个textinput*/
+.oneCReadOnly input[type="text"]{ background:none;background-color:#eff3f6;border:none;}
+/*只读文本框 一行放两个textinput*/
+.twoCReadOnly input[type="text"]{ background:none;background-color:#eff3f6;border:none;}
+
+.container{ background:url(conbg.jpg) repeat-y center top; margin:0 auto;}
+.content{ background-color:#FFF; width:960px;  margin:0 auto;}
+#nav{ background:url(navbg.png) repeat-x center top; height:33px; width:960px;z-index:33333;}
+/*时间*/
+.Wdate{}
+
+
+
+
+
+#nav .navBtn a{ height:14px; display:block; padding-left:20px;color:#FFF; text-align:left; padding-left:18px; font-family:"微软雅黑"; float:left;}
+.NAV_Next{ background:url(NAV_Next.jpg) no-repeat left center; }
+.NAV_Reject{ background:url(NAV_Reject.jpg) no-repeat left center;}
+.NAV_Advanced{ background:url(NAV_Advanced.jpg) no-repeat left center;}
+.NAV_CompleteLater{ background:url(NAV_CompleteLater.jpg) no-repeat left center;}
+.tabBtn{ float:left; text-align:center; line-height:24px; margin-top:5px; margin-left:19px; width:400px;}
+.tabBtn a{ color:#f0f0f0; font-family:"微软雅黑"; font-size:12px; background:url(tab1Btn.jpg) no-repeat center top; width:80px; height:24px; display:block; float:left; margin-right:5px;}
+.tabBtn a:hover{ color:#f0f0f0; font-family:"微软雅黑"; font-size:12px; background:url(tab1Btna.jpg) no-repeat center top; width:80px; height:24px; display:block; float:left; margin-right:5px;}
+.tabBtn .tabBtnH{background:url(tabBtn.jpg) no-repeat center top; height:24px; width:80px; display:block;}
+.tabBtn .tabBtnH:hover{background:url(tabBtna.jpg) no-repeat center top; height:24px; width:80px; display:block;}
+.navBtn{float:right; padding-top:10px; margin-right:18px; background:url(navBtnbg.jpg) no-repeat left top; width:360px; text-align:right;}
+.navBtn a{ margin-left:15px;}
+/*主体部分*/
+#con{ width:940px; margin:0 auto; border-left:1px solid #f0efef; height:100%;border-right:1px solid #f0efef;overflow: auto; margin-top:10px
+/*HEIGHT: expression(document.body.clientHeight-document.getElementById("nav").offsetHeight-116);*/ }
+.contitle{ width:940px;text-align:left; background:url(fenl.jpg) repeat-x center top; height:24px;}
+.contitle b{ font-size:12px; background:url(table.jpg) no-repeat center left; padding-left:22px; color:#222222; line-height:24px; margin-left:12px; float:left; width:300px;}
+.contitle span{ float:right; width:122px; text-align:right; padding-top:9px; padding-right:12px;}
+.contable{ background-color: #E3E3E3;border: 0 none; width: 100%;}
+.contable tr{ height:27px;}
+.tdy{ width:15%; background-color:#f9f9f9; text-align:center;}
+.tde{background-color: #EFF3F6;}
+.db-con ul{ padding:0px; margin:0px;}
+
+/*jradio模拟radio的样�?jcheckbox模拟checkbox样式*/
+.jradio .radio, .jradio .checked, .jcheckbox .checkbox, .jcheckbox .checked {display:inline-block; margin-right:15px; padding-left:15px; background:url(form-ico.png) no-repeat 0 3px; vertical-align:middle; line-height:23px;}
+.jradio .checked {background-position: 0 -55px; }
+.jcheckbox .checkbox {padding-left:18px;background-position: 0 -118px; }
+.jcheckbox .checked { padding-left:18px;background-position: 0 -181px;}
+/* jselect模拟select的样�?*/
+.meta {float:left;display:inline;}
+.jselect { position:relative; margin:0 10px 0 0; height:21px;text-align:left;font-size:12px; padding-left:9px;}
+.jtext {padding:0 0 0 10px;width:211px;height:21px;line-height:21px;background:url(form-input.png) no-repeat; margin:0px;}
+.option {margin:0;height:20px;line-height:20px;}
+/* 下拉三�� */
+.jselect em {top:10px; right:10px;line-height:0; border-style:solid; border-width:5px  5px 0; border-color:#555 #fff; }
+.jselect.curr em { border-width:0 5px 5px !important; border-width:0 6px 6px; }
+.db-con, .jselect em { position:absolute;}
+.db-con {top:20px; left:-1; display:none; padding:2px; border:1px solid #ddd; background:#fff; z-index:22; width:214px }
+.db-con li { padding:2px 10px; cursor:default;}
+.db-con li.checked{ background:#eff3f6;}
+.db-con li:hover{ background:#f3f3f6; }
+/**/
+.st-form1input{ border:none;background:url(textarea.jpg) no-repeat center top; width:720px; height:43px;}
+.twSingleSelector select{ width:283px }
+/*文本域*/
+.twTextArea textarea{ width:730px; border:1px solid #cccccc; }
+/*单选按钮*/
+.radioBtn{ text-align:left; margin-left:8px;}
+
+
+/*导航*/
+.nav1{ background:url(NAV1.jpg) no-repeat right center;}
+.link_style_1 {
+    background:url(link_style_1.gif) no-repeat 0 2px;
+    padding-left: 15px;
+}
+
+.list_style_1 li a {
+    background:url(list_style_1.gif) no-repeat 0 6px;
+    line-height:2em;
+    padding-left:15px;
+}
+
+#wrap {
+    margin:auto;
+    width:960px;
+}
+
+
+#main_nav {
+ background: url("navBtnbg.jpg") no-repeat scroll left top transparent;
+    float: right;
+    margin-right: 18px;
+    padding-top: 10px;
+    text-align: right;
+    width: 430px;
+}
+#main_nav ul{ padding:0px; margin:0px;}
+#main_nav li {
+    float: left;padding-left: 18px;
+    position: relative;
+    z-index: 5; margin-right:22px;
+}
+
+#main_nav li a {
+color: #FFFFFF;
+    display: block; padding-right:10px;
+    float: left;
+    font-family: "微软雅黑";
+    height: 14px;
+    text-align: left;
+}
+
+#con #main_nav li ul li a {
+    font-size: 12px;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0px;
+    padding:0px;
+}
+#main_nav li ul li a{  display: block;
+    float: none;
+    height: 28px; 
+    line-height: 28px;
+    margin: 0;}
+#main_nav li ul li a:hover, #main_nav li.focus ul li a:hover {
+    background: #1c2027;
+}
+
+
+
+#main_nav li.focus ul li a {
+    background: none;
+}
+
+#main_nav li ul {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    background: #313d4e;
+    border-color: #000000;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+}
+
+#main_nav li ul li{
+    float: none; padding:0px; margin:0px;width: 76px; text-align:center;
+}
+
+
+
+
+
+
+FORM{ width:960px; margin-top:0px;}
+* HTML .sectionPadding {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.sectionPadding {
+    width: 960px;
+    background-color: #EFF3F6;
+    overflow:hidden;
+}
+.controlLayout {
+    border-collapse: collapse;
+    padding: 0;
+    width: 920px;
+    overflow:hidden;
+}
+.sectionBody{ width:940px }
+#section_Row0{ width:940px; text-align:center}
+.multipleselect_full{width: 82%;}
+.twButtonGroup{ width:960px;}
+/*头部样式*/
+.headnav{ width:960px; text-align:left;}
+
+
+
+.twControlTR td .sectionPadding{ width:940px;}
+.sectionBodyCenterControl .twButtonGroup{ width:930px;}
+/*顶部浮动层*/
+#fixed{position:fixed;_position:absolute;top:0;z-index:300;}
+.dataspan{ float: left;width:195px; height:30px; line-height:30px; font-size: 12px; color:#555555;background-color: #F9F9F9;border-right: 1px solid #E3E3E3;border-top: 1px solid #E3E3E3;text-align: center;}
+.Wdate {width: 230px;background: url("datePicker.gif") no-repeat scroll right center #FFFFFF;border: 1px solid #CCCCCC;float: left;height: 20px; margin-left: 8px;}
+.readOnly INPUT{ border:none; background-color:#eff3f6; width:730px; height:22px;}
+.readOnlyText1 {background-color:#F6F6F6;border:1px solid #BBBBBB;}
+.oneC INPUT{}
+#fixed{position:fixed;_position:absolute;top:0;z-index:300;}
+.dagta{ width:470px;}
+.twoC input[type="text"] {width: 730px;height: 21px;border: 1px solid #CCC;line-height: 21px; margin-left:8px;}
+
+
+/*Navigation page bottom bar td*/
+#pageTd{background-color: #EFF3F6;}
+

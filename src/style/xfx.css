@@ -1,0 +1,190 @@
+.jlayoutLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jlayoutCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jlayoutRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jlayoutBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jlayoutTop {
+  display: flex;
+  align-items: flex-start;
+}
+
+.jlayoutBottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.jlayoutFlow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jlayoutVertical {
+  flex-flow: column;
+}
+
+.jwidthInherit {
+  width: inherit
+}
+
+.jwidthFull {
+  width: 100%
+}
+
+.jwidthHalf {
+  width: 50%
+}
+
+.jwidth2i3 {
+  width: 65%
+}
+
+.jwidth1i3 {
+  width: 32%
+}
+
+.jwidth4i5 {
+  width: 80%
+}
+
+.jwidth3i5 {
+  width: 60%
+}
+
+.jwidth2i5 {
+  width: 40%
+}
+
+.jwidth1i5 {
+  width: 20%
+}
+.jwidth1i10 {
+  width: 10%
+}
+.jwidth7i10 {
+  width: 70%
+}
+.jwidth9i10 {
+  width: 90%
+}
+
+.jheightInherit {
+  height: inherit
+}
+
+.jheightFull {
+  height: 100%
+}
+
+.jheightHalf {
+  height: 50%
+}
+
+.jheight2i3 {
+  height: 67%
+}
+
+.jheight1i3 {
+  height: 33%
+}
+
+.jheight4i5 {
+  height: 80%
+}
+
+.jheight3i5 {
+  height: 60%
+}
+
+.jheight2i5 {
+  height: 40%
+}
+
+.jheight1i5 {
+  height: 20%
+}
+
+.jwidthHeightSmall {
+  width: 16px;
+  height: 16px;
+}
+
+.jwidthHeight {
+  width: 24px;
+  height: 24px;
+}
+
+.jwidthHeight {
+  width: 24px;
+  height: 24px;
+}
+
+.jwidthHeightLarge {
+  width: 32px;
+  height: 32px;
+}
+
+.jwidthHeightLargeMore {
+  width: 40px;
+  height: 40px;
+}
+
+.jwidthHeightLargeMoreMore {
+  width: 48px;
+  height: 48px;
+}
+
+.jwidthHeightLargeMoreMoreMore {
+  width: 56px;
+  height: 56px;
+}
+
+.jspaceLineSmall {
+  line-height: 20px;
+  color: black;
+  background: #eeeeee;
+  font_size: 12px;
+  font_family: '微软雅黑';
+}
+
+.jspaceLine {
+  line-height: 30px;
+  color: black;
+  background: #eeeeee;
+  font_size: 14px;
+  font_family: '微软雅黑';
+}
+
+.jspaceLineLarge {
+  line-height: 40px;
+  color: black;
+  background: #eeeeee;
+  font_size: 16px;
+  font_family: '微软雅黑';
+}
+
+.gpositionAbsolute {
+  position: absolute
+}
+
+.gpositionRelative {
+  position: relative
+}
